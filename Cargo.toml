@@ -1,0 +1,19 @@
+[package]
+name = "cancellation"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "timeout"
+path = "timeout.rs"
+
+[[bin]]
+name = "select"
+path = "select.rs"
+
+[[bin]]
+name = "select_loop"
+path = "select_loop.rs"
+
+[dependencies]
+tokio = { version = "1.49.0", features = ["full"] }
