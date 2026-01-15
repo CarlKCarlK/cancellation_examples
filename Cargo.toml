@@ -15,5 +15,9 @@ path = "select.rs"
 name = "select_loop"
 path = "select_loop.rs"
 
+[[bin]]
+name = "select_by_reference"
+path = "select_by_reference.rs"
+
 [dependencies]
 tokio = { version = "1.49.0", features = ["full"] }
