@@ -16,6 +16,6 @@ async fn main() {
         println!("foo timed out");
     }
 
-    println!("Even though the second foo gets cancelled, the process continues...");
+    println!("\nfoo is cancelled, but the process continues...");
     sleep(Duration::from_secs(10)).await;
 }
